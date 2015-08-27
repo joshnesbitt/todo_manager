@@ -73,7 +73,7 @@ This gem was written as an example application for the [Ruby bootcamp for Sky](h
 
 ## Contributing
 
-1. Fork it (https://github.com/joshnesbitt/todo-manager/fork)
+1. Fork it (https://github.com/joshnesbitt/todo_manager/fork)
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
