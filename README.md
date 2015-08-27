@@ -15,19 +15,13 @@ The simplest of Todo Managers. Create, complete and track your todo list all fro
 
 ## Installation
 
-Add this line to your application's Gemfile:
+This gem isn't hosted on RubyGems.org due to a clashing gem name, therefore you need to install it from source.
 
-```ruby
-gem 'todo_manager'
+Download the latest gem from [the packages directory](pkg) then install it using the following command (replacing `X-X-X` with the latest version number):
+
 ```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install todo_manager
+gem install todo_manager-X-X-X.gem
+```
 
 
 ## Usage
