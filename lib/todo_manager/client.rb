@@ -44,7 +44,7 @@ module TodoManager
     def list
       todos.each_with_index do |todo, index|
         done = todo.completed?
-
+        puts todo.inspect
         output [
           "#{index + 1}) [#{done ? '-' : ' '}]",
           todo.content.colorize(done ? :green : :red)
