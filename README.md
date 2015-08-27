@@ -1,5 +1,7 @@
 # Todo Manager
 
+[![Build Status](https://travis-ci.org/joshnesbitt/todo_manager.svg)](https://travis-ci.org/joshnesbitt/todo_manager)
+
 
 ## Introduction
 
