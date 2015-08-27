@@ -46,8 +46,7 @@ module TodoManager
         done = todo.completed?
 
         output [
-          "#{index + 1})",
-          "[#{done ? '-' : ' '}]",
+          "#{index + 1}) [#{done ? '-' : ' '}]",
           todo.name.colorize(done ? :green : :red)
         ].join(' ')
       end
