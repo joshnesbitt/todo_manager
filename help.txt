@@ -1,0 +1,36 @@
+About:
+
+  Todo manager is a simple command line todo list.
+
+Usage:
+
+  todo [command] [args]
+
+    list         List all todos.
+
+                 E.g: todo list
+
+    add          Add a todo to the list.
+
+                 E.g: todo add "Get milk"
+
+    remove       Remove a todo from the list by index.
+
+                 E.g: todo remove 2
+
+    complete     Complete a todo by index.
+
+                 E.g: todo complete 2
+
+    uncomplete   Uncomplete a todo by index.
+
+                 E.g: todo complete 2
+
+    reset        Reset the todo database.
+
+                 E.g: todo reset
+
+    help         Show this screen.
+
+                 E.g: todo help
+

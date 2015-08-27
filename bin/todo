@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+
+require "bundler/setup"
+require "todo_manager"
+require "colorize"
+
+$client = TodoManager::Client.new
+$client.run!(ARGV)
