@@ -1,11 +1,10 @@
 module TodoManager
   class Model
-    attr_reader :name
-    attr_reader :completed
+    attr_reader :content
 
-    def initialize(name)
+    def initialize(content)
       @completed = false
-      @name = name
+      @content = content
     end
 
     def completed?

@@ -47,13 +47,13 @@ module TodoManager
 
         output [
           "#{index + 1}) [#{done ? '-' : ' '}]",
-          todo.name.colorize(done ? :green : :red)
+          todo.content.colorize(done ? :green : :red)
         ].join(' ')
       end
     end
 
-    def add(name)
-      todos << Model.new(name)
+    def add(content)
+      todos << Model.new(content)
     end
 
     def remove(index)
