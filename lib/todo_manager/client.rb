@@ -44,9 +44,11 @@ module TodoManager
     def list
       todos.each_with_index do |todo, index|
         done = todo.completed?
-        puts todo.inspect
+        count = index + 1
+        indent = 3 - count.to_s.size
+
         output [
-          "#{index + 1}) [#{done ? '-' : ' '}]",
+          "#{count})#{' ' * indent}[#{done ? '-' : ' '}]",
           todo.content.colorize(done ? :green : :red)
         ].join(' ')
       end
