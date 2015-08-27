@@ -1,0 +1,4 @@
+---
+- !ruby/object:TodoManager::Model
+  completed: true
+  content: Get milk
