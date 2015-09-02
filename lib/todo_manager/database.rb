@@ -4,7 +4,7 @@ module TodoManager
   class Database
     attr_reader :path
 
-    def initialize(path = "#{ENV['HOME']}/.todo_manager")
+    def initialize(path)
       @path = path
     end
 

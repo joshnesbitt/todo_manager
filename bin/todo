@@ -5,9 +5,4 @@ require "todo_manager"
 require "colorize"
 
 $client = TodoManager::Client.new
-
-10.times do |i|
-  $client.add("Task #{i}")
-end
-
 $client.run!(ARGV)
