@@ -3,10 +3,10 @@ module TodoManager
     attr_reader :database
     attr_reader :todos
 
-    # TODO: Raise error on todo not found.
+    # TODO: Raise error on Model not found.
 
-    def initialize
-      @database = Database.new
+    def initialize(database_path = nil)
+      @database = database_path ? Database.new(database_path) : Database.new
       @todos = @database.load
     end
 

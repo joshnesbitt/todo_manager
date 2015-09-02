@@ -1,4 +1,5 @@
 require "todo_manager/version"
+require 'colorize'
 
 module TodoManager
   autoload :Model, 'todo_manager/model'
